@@ -119,7 +119,7 @@ Then in your tailwind.config.js file:
 
 module.exports = {
     plugins: [
-        require('@vicgutt/tailwindcss-feature-detection')(require('@vicgutt/tailwindcss-feature-detection/defaults')),
+        require('@vicgutt/tailwindcss-feature-detection')(require('@vicgutt/tailwindcss-feature-detection/dist/defaults')),
     ],
 };
 ```
